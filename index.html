@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="margin-top: 200px">
+      <figure id="video_player">
+        <div id="video_container">
+          <video controls poster="images/thumb-1.png" playsinline autoplay muted>
+            <source src="videos/sample-1.webm" type="video/webm">
+            <source src="videos/sample-1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <figcaption>
+          <a href="videos/sample-1.mp4" class="currentvid">
+            <img src="images/thumb-1.png" alt="Athabasca Glacier">
+          </a>
+          <a href="videos/sample-2.mp4">
+            <img src="images/thumb-2.png" alt="Athabasca Lake">
+          </a>
+          <a href="videos/sample-3.mp4">
+            <img src="images/thumb-3.png" alt="Mountain">
+          </a>
+        </figcaption>
+      </figure>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
